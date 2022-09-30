@@ -1,2 +1,5 @@
 # zion-website-redesign
- Redesigning Zion Lutheran's website while learning Javascript for the first time.
+My goal is to re-design Zion Lutheran's website, my old school, through
+the use of HTML, CSS, and Javascript.
+The current website is [here](https://www.zionsfschool.org/), but my
+re-design can be viewed here (to be determined).
