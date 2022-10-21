@@ -20,6 +20,7 @@ body {
   height: 12%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -125,15 +126,15 @@ img {
 
 .arrow {
   position: absolute;
-  top: 93%;
+  top: 94%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .arrow span { /* creates arrows themselves w/o animation */
   display: block;
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   border-bottom: 5px solid lightgray;
   border-right: 5px solid lightgray;
   transform: rotate(45deg);
