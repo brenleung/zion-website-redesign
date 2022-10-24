@@ -160,7 +160,7 @@ img {
 
 .arrow {
   position: absolute;
-  top: 94%;
+  top: 93%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -172,7 +172,7 @@ img {
   border-bottom: 5px solid lightgray;
   border-right: 5px solid lightgray;
   transform: rotate(45deg);
-  margin: -10px;
+  margin: -5px;
   -webkit-animation: scroll 2s infinite;
           animation: scroll 2s infinite;
 }
