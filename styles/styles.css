@@ -3,34 +3,39 @@
 }
 
 body {
-  background-color: var(--main-color);
+  width: 100%;
+  height: 100vh;
   font-size: 1.1rem;
   transition: all 0.4s ease-in-out;
   margin: 0;
 }
 
-.scroll-container {
-  -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
+html {
+  -ms-scroll-snap-type: y proximity;
+      scroll-snap-type: y proximity;
+  scroll-behavior: smooth;
 }
 
-.scroll-contianer > div {
-  scroll-snap-align: center;
+.scroll-container {
   flex: none;
+}
+.scroll-container section {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: start;
 }
 
 .first-sec {
-  width: 100%;
-  height: 100vh;
-  box-sizing: border-box;
-  scroll-snap-align: center;
+  background-color: var(--main-color);
 }
 
 .second-sec {
-  height: 100vh;
   background-color: rgb(23, 82, 75);
-  scroll-snap-align: center;
-  overflow: auto;
+}
+
+.third-sec {
+  background-color: rgb(20, 69, 63);
 }
 
 .navbar {
@@ -39,8 +44,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 100000;
   background-color: rgb(26, 91, 83);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
 }
 
 .logo {
@@ -112,6 +119,16 @@ nav ul ul li {
   flex-basis: 50%;
 }
 
+.col .content p {
+  transition: 1s;
+  opacity: 0;
+}
+
+.col .content p[data-scroll=in] {
+  opacity: 1;
+  transition-delay: 1s;
+}
+
 @media (max-width: 1125px) { /* small browser screens */
   h1 {
     font-size: 35px;
@@ -127,6 +144,10 @@ nav ul ul li {
   }
   nav ul ul {
     left: -25px;
+  }
+  .line p {
+    font-size: 14px;
+    line-height: 10px;
   }
 }
 @media (min-width: 1126px) and (max-width: 1430px) { /* medium browser screens */
@@ -145,6 +166,10 @@ nav ul ul li {
   nav ul ul {
     left: -35px;
   }
+  .line p {
+    font-size: 18px;
+    line-height: 10px;
+  }
 }
 @media (min-width: 1431px) { /* big browser screens */
   h1 {
@@ -161,6 +186,10 @@ nav ul ul li {
   }
   nav ul ul {
     left: -65px;
+  }
+  .line p {
+    font-size: 20px;
+    line-height: 10px;
   }
 }
 h1 {
