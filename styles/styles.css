@@ -282,4 +282,19 @@ img {
   text-align: center;
   position: relative;
   bottom: 50px;
+}
+
+.apply-button {
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px 32px;
+  background-color: #423e3e;
+  border-radius: 8px;
+  position: absolute;
+  left: 44%;
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */

@@ -9,6 +9,7 @@ body{
   transition: all 0.4s ease-in-out;
   margin: 0;
 }
+
 html {
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
@@ -284,4 +285,19 @@ img {
   text-align: center;
   position: relative;
   bottom: 50px;
+}
+
+.apply-button {
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px 32px;
+  background-color: #423e3e;
+  border-radius: 8px;
+  position: absolute;
+  left: 44%;
+  cursor: pointer;
 }
