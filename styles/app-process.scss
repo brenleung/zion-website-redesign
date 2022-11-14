@@ -183,7 +183,7 @@ h2 {
 h3 {
     color: white;
     font-family: "Poppins", sans-serif;
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 p {
@@ -196,13 +196,67 @@ p {
     padding-left: 4%;
     padding-right: 4%;
     display: flex;
-    height: 20%;
+    height: 32%;
     align-items: center;
-    background-color: #998b09;
+    background-color: #a79d42;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.row2 {
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    height: 38%;
+    align-items: center;
+    background-color: #a3554c;
     margin-left: 4%;
     margin-right: 4%;
 }
   
+.row3 {
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    height: 30%;
+    align-items: center;
+    background-color: #2b4166;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
 .col {
     flex-basis: 50%;
 }
+
+ul li {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+ul li a:visited {
+    color: white;
+}
+
+ul li a:link {
+    color: white;
+}
+
+.apply-button {
+    margin-top: 15px;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 32px;
+    background-color: #423e3e;
+    border-radius: 8px;
+    position: absolute;
+    left: 44%;
+    cursor: pointer;
+  }

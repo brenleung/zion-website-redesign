@@ -285,6 +285,7 @@ img {
 }
 
 .apply-button {
+  font-family: "Poppins", sans-serif;
   border: none;
   color: white;
   text-align: center;
