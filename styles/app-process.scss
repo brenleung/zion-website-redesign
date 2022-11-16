@@ -18,6 +18,7 @@ body {
     background-color: rgb(26,91,83);
     position: sticky;
     top: 0px;
+    z-index: 1000000000;
 }
 
 .logo {
@@ -196,7 +197,7 @@ p {
     padding-left: 4%;
     padding-right: 4%;
     display: flex;
-    height: 32%;
+    height: 300px;
     align-items: center;
     background-color: #a79d42;
     margin-left: 4%;
@@ -207,7 +208,7 @@ p {
     padding-left: 4%;
     padding-right: 4%;
     display: flex;
-    height: 38%;
+    height: 335px;
     align-items: center;
     background-color: #a3554c;
     margin-left: 4%;
@@ -218,7 +219,7 @@ p {
     padding-left: 4%;
     padding-right: 4%;
     display: flex;
-    height: 30%;
+    height: 250px;
     align-items: center;
     background-color: #2b4166;
     margin-left: 4%;
@@ -260,3 +261,10 @@ ul li a:link {
     left: 44%;
     cursor: pointer;
   }
+
+a:visited {
+    color: white;
+}
+a:link {
+    color: white;
+}
