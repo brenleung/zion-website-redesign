@@ -202,16 +202,6 @@ nav ul ul li {
     line-height: 10px;
   }
 }
-@media (max-height: 799px) {
-  .fourth-sec h1 {
-    padding-top: 10px;
-  }
-}
-@media (min-height: 800px) {  /* for fourth section */
-  .fourth-sec h1 {
-    padding-top: 100px;
-  }
-}
 h1 {
   color: white;
   font-family: "Poppins", sans-serif;
