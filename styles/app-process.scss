@@ -106,6 +106,9 @@ position: relative;
         padding-left: 150px;
         padding-right: 150px;
     }
+    #GoogleForm iframe {
+        padding-left: 15%;
+    }
 }
 @media (min-width: 1126px) and (max-width: 1430px) { /* medium browser screens */
     h1 {
@@ -131,6 +134,9 @@ position: relative;
     .rest-body {
         padding-left: 250px;
         padding-right: 250px;
+    }
+    #GoogleForm iframe {
+        padding-left: 25%;
     }
 }
 @media (min-width: 1431px) { /* big browser screens */
@@ -158,6 +164,10 @@ position: relative;
     .rest-body {
         padding-left: 250px;
         padding-right: 250px;
+    }
+
+    #GoogleForm iframe {
+        padding-left: 30%;
     }
 }
 
