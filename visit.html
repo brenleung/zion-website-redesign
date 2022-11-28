@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Application</title>
+    <title>Schedule a Tour</title>
     <link rel="icon" tyle="image/x-icon" href="/imgs/favicon.ico">
-    <link rel="stylesheet" href="styles/app-process.css">
+    <link rel="stylesheet" href="styles/visit.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;700;800&display=swap" rel="stylesheet">
@@ -44,9 +44,38 @@
         </nav>
     </div>
     
-    <h1 style="text-align: center">Apply now!</h1>
-    <p style="text-align: center; line-height: 25px">This is the formal application for Zion. Once you complete the form, go back to the <a href="/app-process.html">application process</a> to continue with your next steps.</p>
-    <div id="GoogleForm">
-        <iframe style="display: block; filter: drop-shadow(10px 10px 10px #000000)" src="https://docs.google.com/forms/d/e/1FAIpQLSfG6OTlAiG4ylRbtDX9grObfD8k0djLUGOczBqQYuBnJIGU8w/viewform?embedded=true" width="640" height="1300" frameborder="0" marginheight="0" marginwidth="0" wmode="opaque">Loading…</iframe>
+    <div class="rest-body">
+        <h1>Schedule a Tour!</h1>
+        <p>We offer intimate personal school tours, rather than large group tours, Monday through Friday. We have found that personal tours allow for your individual questions, specific to your child and family, to be answered. Virtual tours will take place at 9:00 am. You will learn about Zion's school community and gain a greater understanding of Zion's goal to educate the whole child.</p>
+        <p style="margin-bottom: 0px">To schedule a tour, use one of the three follow methods:</p>
+        <ul style="margin-top: 0px">
+            <li>Email <a href="mailto:admissions@zionsf.org">admissions@zionsf.org</a></li>
+            <li>Call 415-221-7500 ext. 205</li>
+            <li>Use the form below.</li>
+        </ul>
+        <p>Please allot approximately 1 hour for your tour.</p>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Parent's First & Last Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>Address: <input type="text" name="address" /></label>
+            </p>
+            <p>
+              <label>Child's Name: <input type="text" name="child_name"/></label>
+            </p>
+            <p>
+              <label>Child's Incoming Grade: <input type="text" name="child_name"/></label>
+            </p>
+            <p>
+              <label>Questions that you would like answered? <textarea name="questions"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
     </div>
 </body>
