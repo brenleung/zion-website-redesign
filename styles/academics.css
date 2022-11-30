@@ -99,16 +99,13 @@ nav ul ul li {
     font-size: 14px;
     line-height: 10px;
   }
-  #GoogleForm iframe {
-    padding-left: 15%;
-  }
 }
 @media (min-width: 1126px) and (max-width: 1430px) { /* medium browser screens */
   h1 {
     font-size: 45px;
   }
   h2 {
-    font-size: 30px;
+    font-size: 25px;
   }
   p {
     font-size: 14px;
@@ -122,9 +119,6 @@ nav ul ul li {
   .line p {
     font-size: 18px;
     line-height: 10px;
-  }
-  #GoogleForm iframe {
-    padding-left: 25%;
   }
 }
 @media (min-width: 1431px) { /* big browser screens */
@@ -147,9 +141,6 @@ nav ul ul li {
     font-size: 20px;
     line-height: 10px;
   }
-  #GoogleForm iframe {
-    padding-left: 30%;
-  }
 }
 img {
   margin: 30px;
@@ -166,7 +157,7 @@ h1 {
 h2 {
   color: white;
   font-family: "Poppins", sans-serif;
-  font-style: italic;
+  font-style: normal;
   font-weight: lighter;
   line-height: 20px;
 }
@@ -181,6 +172,13 @@ p {
   color: white;
   font-family: "Poppins", sans-serif;
   line-height: 20px;
+}
+
+.row {
+  padding-left: 4%;
+  padding-right: 4%;
+  display: flex;
+  align-items: center;
 }
 
 .row1 {
@@ -235,26 +233,27 @@ ul li a:link {
   color: white;
 }
 
-.apply-button {
-  margin-top: 15px;
-  font-family: "Poppins", sans-serif;
-  border: none;
-  color: white;
+.rest-body h1 {
   text-align: center;
-  display: inline-block;
-  text-decoration: none;
-  font-size: 20px;
-  padding: 15px 32px;
-  background-color: #423e3e;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-bottom: 10px;
+  line-height: 20px;
 }
 
-a:visited {
+.rest-body h3 {
+  margin-bottom: 0;
+}
+
+.rest-body p {
+  margin-top: 0;
+}
+
+.rest-body a {
   color: white;
 }
 
-a:link {
-  color: white;
-}/*# sourceMappingURL=app-process.css.map */
+img {
+  margin: 30px;
+  border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}/*# sourceMappingURL=academics.css.map */

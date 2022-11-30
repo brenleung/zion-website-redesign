@@ -253,4 +253,49 @@ ul li a:link {
 
 .rest-body a {
   color: white;
+}
+
+img {
+  margin: 30px;
+  border-radius: 15px;
+  width: 90%;
+}
+
+.button {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  color: rgb(26, 91, 83);
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 5px 10px;
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+input[type=text], select {
+  width: 50%;
+  padding: 6px 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+input[type=email] {
+  width: 50%;
+  padding: 6px 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.textbox {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100px;
+  padding: 6px 10px;
+  resize: none;
+}
+
+label {
+  display: block;
 }/*# sourceMappingURL=visit.css.map */

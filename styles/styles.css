@@ -159,6 +159,9 @@ nav ul ul li {
     font-size: 14px;
     line-height: 10px;
   }
+  .fourth-sec {
+    padding-top: 100px;
+  }
 }
 @media (min-width: 1126px) and (max-width: 1430px) { /* medium browser screens */
   h1 {
@@ -180,6 +183,9 @@ nav ul ul li {
     font-size: 18px;
     line-height: 10px;
   }
+  .fourth-sec {
+    padding-top: 100px;
+  }
 }
 @media (min-width: 1431px) { /* big browser screens */
   h1 {
@@ -200,6 +206,9 @@ nav ul ul li {
   .line p {
     font-size: 20px;
     line-height: 10px;
+  }
+  .fourth-sec {
+    padding-top: 100px;
   }
 }
 h1 {
