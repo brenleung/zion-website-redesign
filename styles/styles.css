@@ -44,7 +44,6 @@ html {
 
 .fourth-sec {
   width: 100%;
-  height: calc(100vh - 100px);
   background-color: rgb(13, 51, 47);
 }
 
@@ -159,9 +158,6 @@ nav ul ul li {
     font-size: 14px;
     line-height: 10px;
   }
-  .fourth-sec {
-    padding-top: 100px;
-  }
 }
 @media (min-width: 1126px) and (max-width: 1430px) { /* medium browser screens */
   h1 {
@@ -182,9 +178,6 @@ nav ul ul li {
   .line p {
     font-size: 18px;
     line-height: 10px;
-  }
-  .fourth-sec {
-    padding-top: 100px;
   }
 }
 @media (min-width: 1431px) { /* big browser screens */
@@ -207,8 +200,16 @@ nav ul ul li {
     font-size: 20px;
     line-height: 10px;
   }
+}
+@media (min-height: 756px) {
   .fourth-sec {
     padding-top: 100px;
+    height: calc(100vh - 100px);
+  }
+}
+@media (max-height: 755px) {
+  .fourth-sec {
+    height: 100vh;
   }
 }
 h1 {
