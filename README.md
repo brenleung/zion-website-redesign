@@ -13,6 +13,7 @@ the best points that the school has to offer.
 One of the most difficult points to re-design was the homepage, as instead of a wordy 
 title page, I wanted to create a homepage with snap-scrolling. Though this took several
 hours to implement, the final product is as such:\
+\
 <img src="/imgs/homepage.png" align="center">
 
 ## View the Website (with Changes)
