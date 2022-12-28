@@ -14,7 +14,7 @@ One of the most difficult points to re-design was the homepage, as instead of a 
 title page, I wanted to create a homepage with snap-scrolling. Though this took several
 hours to implement, the final product is as such:\
 \
-<img src="[/imgs/homepage.png](https://i.imgur.com/s4DqKWO.mp4)" align="center">
+<img src="https://i.imgur.com/s4DqKWO.mp4" align="center">
 
 ## View the Website (with Changes)
 The entire website as it is being worked on can be viewed [here](https://zionsfschool.netlify.app),
