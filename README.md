@@ -18,5 +18,5 @@ hours to implement, the final product is as such:
 
 ## View the Website (with Changes)
 The entire website as it is being worked on can be viewed [here](https://zionsfschool.netlify.app),
-noting that this website is not published to the public.
+noting that this website is not published to the public. This website gets updated with each GitHub commit.
 The original website can be viewed [here](https://zionsfschool.org).
