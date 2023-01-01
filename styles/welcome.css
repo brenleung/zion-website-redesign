@@ -75,6 +75,7 @@ nav ul ul li {
   float: none;
   display: list-item;
   position: relative;
+  z-index: 10000;
 }
 
 /* code for navbar */
