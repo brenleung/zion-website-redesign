@@ -8,15 +8,17 @@ body {
 }
 
 /* code for navbar */
-.navbar {
+.top-body {
   height: 12%;
+  margin-top: -10px;
+}
+
+.navbar {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: rgb(26, 91, 83);
-  position: -webkit-sticky;
-  position: sticky;
   top: 0px;
   z-index: 1000000000;
 }
@@ -179,39 +181,7 @@ p {
   padding-left: 4%;
   padding-right: 4%;
   display: flex;
-}
-
-.row1 {
-  padding-left: 4%;
-  padding-right: 4%;
-  display: flex;
-  height: 300px;
-  align-items: center;
-  background-color: #a79d42;
-  margin-left: 4%;
-  margin-right: 4%;
-}
-
-.row2 {
-  padding-left: 4%;
-  padding-right: 4%;
-  display: flex;
-  height: 335px;
-  align-items: center;
-  background-color: #a3554c;
-  margin-left: 4%;
-  margin-right: 4%;
-}
-
-.row3 {
-  padding-left: 4%;
-  padding-right: 4%;
-  display: flex;
-  height: 250px;
-  align-items: center;
-  background-color: #2b4166;
-  margin-left: 4%;
-  margin-right: 4%;
+  align-items: start;
 }
 
 .col {

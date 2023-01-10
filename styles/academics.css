@@ -8,15 +8,17 @@ body {
 }
 
 /* code for navbar */
-.navbar {
+.top-body {
   height: 12%;
+  margin-top: -10px;
+}
+
+.navbar {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: rgb(26, 91, 83);
-  position: -webkit-sticky;
-  position: sticky;
   top: 0px;
   z-index: 1000000000;
 }
