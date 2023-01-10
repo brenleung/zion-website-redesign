@@ -16,6 +16,12 @@ hours to implement, the final product is as such:
 
 ![homepage](https://user-images.githubusercontent.com/102711163/209784114-bb412d41-1790-4ae9-897c-e8bb9c7f1561.gif)
 
+In addition, I made sure the navbar was easy to use and was easily readable. <br/>
+Many of the webpages also used a two-column format, in order to allow for the maximum amount of text to show up on the screen,
+but in a way that was not too cluttered:
+
+![Fine Arts](https://user-images.githubusercontent.com/102711163/211659039-6a143128-32c8-4655-bdb5-e1c2ce3cd064.png)
+
 ## View the Website (with Changes)
 The entire website as it is being worked on can be viewed [here](https://zionsfschool.netlify.app),
 noting that this website is not published to the public. This website gets updated with each GitHub commit.
