@@ -1,0 +1,213 @@
+body {
+  width: 100%;
+  height: 100vh;
+  font-size: 1.1rem;
+  transition: all 0.4s ease-in-out;
+  background-color: rgb(26, 91, 83);
+  margin: 0;
+}
+
+/* code for navbar */
+.navbar {
+  height: 12%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(26, 91, 83);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+.logo {
+  width: 50px;
+  cursor: pointer;
+}
+
+nav {
+  flex: 1;
+  padding-right: 40px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+
+nav ul li {
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  display: block;
+  line-height: 35px;
+}
+
+nav ul li ul li a {
+  padding: 0 10px;
+  background: rgb(34, 84, 79);
+  font-size: 12px;
+}
+
+nav ul li ul li a:hover {
+  background: rgb(23, 57, 54);
+}
+
+nav ul ul {
+  position: absolute;
+  display: none;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul ul li {
+  width: 165px;
+  float: none;
+  display: list-item;
+  position: relative;
+  z-index: 10000;
+}
+
+/* code for navbar */
+@media (max-width: 1125px) { /* small browser screens */
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+  nav ul li {
+    margin-left: 25px;
+  }
+  nav ul ul {
+    left: -25px;
+  }
+  .line p {
+    font-size: 14px;
+    line-height: 10px;
+  }
+  .rest-body {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+@media (min-width: 1126px) and (max-width: 1430px) { /* medium browser screens */
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 14px;
+  }
+  nav ul li {
+    margin-left: 35px;
+  }
+  nav ul ul {
+    left: -35px;
+  }
+  .line p {
+    font-size: 18px;
+    line-height: 10px;
+  }
+  .rest-body {
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+}
+@media (min-width: 1431px) { /* big browser screens */
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 15px;
+  }
+  nav ul li {
+    margin-left: 60px;
+  }
+  nav ul ul {
+    left: -65px;
+  }
+  .line p {
+    font-size: 20px;
+    line-height: 10px;
+  }
+  .rest-body {
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+}
+img {
+  margin: 30px;
+  border-radius: 15px;
+  width: 90%;
+}
+
+h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  line-height: 0px;
+}
+
+h2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  line-height: 20px;
+}
+
+h3 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+}
+
+p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  line-height: 20px;
+}
+
+.row1 {
+  padding-left: 4%;
+  padding-right: 4%;
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+.col {
+  flex-basis: 50%;
+}
+
+.form-button {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+}/*# sourceMappingURL=covid-response.css.map */
