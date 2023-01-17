@@ -184,114 +184,14 @@ p {
 }
 
 .row {
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 15%;
     display: flex;
-}
-  
-.row1 {
-    margin-top: 50px;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 10px;
-    display: flex;
-    height: 80px;
-    align-items: center;
-    background-color: #a79d42;
-    margin-left: 28%;
-    margin-right: 28%;
-    cursor: pointer;
-    position: relative;
-    top: 0;
-    transition: right ease 0.5s;
-}
-
-.row1:hover {
-    left: 20px;
-}
-
-.row2 {
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 10px;
-    display: flex;
-    height: 80px;
-    align-items: center;
-    background-color: #a3554c;
-    margin-left: 28%;
-    margin-right: 28%;
-    cursor: pointer;
-    position: relative;
-    top: 0;
-    transition: right ease 0.5s;
-}
-
-.row2:hover {
-    left: 20px;
-}
-  
-.row3 {
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 10px;
-    display: flex;
-    height: 80px;
-    align-items: center;
-    background-color: #2b4166;
-    margin-left: 28%;
-    margin-right: 28%;
-    cursor: pointer;
-    position: relative;
-    top: 0;
-    transition: right ease 0.5s;
-}
-
-.row3:hover {
-    left: 20px;
-}
-
-.row4 {
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 10px;
-    display: flex;
-    height: 80px;
-    align-items: center;
-    background-color: #389324;
-    margin-left: 28%;
-    margin-right: 28%;
-    cursor: pointer;
-    position: relative;
-    top: 0;
-    transition: right ease 0.5s;
-}
-
-.row4:hover {
-    left: 20px;
-}
-
-.row5 {
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 10px;
-    display: flex;
-    height: 80px;
-    align-items: center;
-    background-color: #622873;
-    margin-left: 28%;
-    margin-right: 28%;
-    cursor: pointer;
-    position: relative;
-    top: 0;
-    transition: right ease 0.5s;
-}
-
-.row5:hover {
-    left: 20px;
 }
 
 .col {
-    width: 20%;
+    width: 17%;
+    height: auto;
+    display: inline-block;
 }
 
 ul li {
@@ -331,20 +231,17 @@ ul li a:link {
     display: block; 
     margin-left: auto; 
     margin-right: auto;
-    width: 40%;
+    width: auto;
+    height: 12%;
 }
 
-.col h3 {
+.col h3, p{
     text-align: center;
 }
 
 .link {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    right: 0;
+    width: 17%;
+    height: 40%;
     transition: top ease 0.5s;
 }
