@@ -101,11 +101,6 @@ z-index: 10000;
       font-size: 14px;
       line-height: 10px;
     }
-
-    .rest-body {
-        padding-left: 150px;
-        padding-right: 150px;
-    }
 }
 @media (min-width: 1126px) and (max-width: 1430px) { /* medium browser screens */
     h1 {
@@ -128,10 +123,6 @@ z-index: 10000;
         font-size: 18px;
         line-height: 10px;
     }
-    .rest-body {
-        padding-left: 250px;
-        padding-right: 250px;
-    }
 }
 @media (min-width: 1431px) { /* big browser screens */
     h1 {
@@ -153,11 +144,6 @@ z-index: 10000;
     .line p{
         font-size: 20px;
         line-height: 10px;
-    }
-
-    .rest-body {
-        padding-left: 250px;
-        padding-right: 250px;
     }
 }
 
@@ -221,4 +207,8 @@ p {
     background-color: #ffffff;
     border-radius: 8px;
     cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: rgb(216, 209, 209);
 }

@@ -282,24 +282,8 @@ p {
   left: 20px;
 }
 
-.col1 {
-  flex-basis: 15%;
-}
-
-.col2 {
-  flex-basis: 78%;
-}
-
-.col3 {
-  flex-basis: 7%;
-}
-
-.col3 h2 {
-  text-align: right;
-}
-
 .col {
-  flex-basis: 50%;
+  width: 20%;
 }
 
 ul li {
@@ -334,13 +318,16 @@ ul li a:link {
   color: white;
 }
 
-.col1 img {
+.col img {
   border-radius: 15px;
   display: block;
   margin-left: auto;
-  margin-right: 50px;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.col h3 {
+  text-align: center;
 }
 
 .link {

@@ -103,6 +103,10 @@ z-index: 10000;
       line-height: 10px;
     }
 
+    iframe {
+        height: 400px;
+        width: 400px;
+    }
 }
 @media (min-width: 1126px) and (max-width: 1430px) { /* medium browser screens */
     h1 {
@@ -126,7 +130,12 @@ z-index: 10000;
         line-height: 10px;
     }
 
+    iframe {
+        height: 500px;
+        width: 500px;
+    }
 }
+
 @media (min-width: 1431px) { /* big browser screens */
     h1 {
         font-size: 60px;
@@ -149,6 +158,10 @@ z-index: 10000;
         line-height: 10px;
     }
 
+    iframe {
+        height: 500px;
+        width: 600px;
+    }
 }
 
 img {
@@ -385,4 +398,8 @@ i {
 
 .tooltip:hover .tooltext {
     visibility: visible;
+}
+
+i:hover {
+    color: rgb(216, 209, 209);
 }
